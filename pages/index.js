@@ -19,7 +19,7 @@ function HomePage({ posts }) {
 
       <main className="container">
         <h1>✨ Next.js Blog Learning</h1>
-        <p className="subtitle">Catatan pribadi belajar Next.js oleh Mr. Zuli</p>
+        <p className="subtitle">Private notes of learning Next.js by Mr. Zuli</p>
 
         <ul className="post-list">
           {posts.map((post) => (
@@ -27,7 +27,7 @@ function HomePage({ posts }) {
               <Link href={`/posts/${post.slug}`}>
                 <div className="card-content">
                   <h2>{post.title}</h2>
-                  <p className="read-more">Baca selengkapnya →</p>
+                  <p className="read-more">Read More .....</p>
                 </div>
               </Link>
             </li>

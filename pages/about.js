@@ -9,8 +9,8 @@ function AboutPage() {
       </Head>
       <main className="about-container">
         <h1>👋 About Me</h1>
-        <p>Halo! Saya adalah seorang developer yang sedang belajar dan eksplorasi teknologi web, khususnya menggunakan Next.js.</p>
-        <p>Jika ingin terhubung atau melihat proyek-proyek saya lainnya, silakan kunjungi GitHub saya:</p>
+        <p>Hello! I am a developer who is learning and exploring web technology, especially using Next.js.</p>
+        <p>If you want to connect or see my other projects, please visit my GitHub:</p>
         <a href="https://github.com/renemu" target="_blank" rel="noopener noreferrer" className="github-link">
           🌐 github.com/renemu
         </a>
